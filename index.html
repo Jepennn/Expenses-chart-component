@@ -12,12 +12,13 @@
   <link rel="stylesheet" href="styles.css">
   
   <title>Expenses chart component</title>
+  <script src="script.js"></script>
 </head>
 <body>
 
   <div id="container">
     <div id="balance-container">
-      <div id="balance">
+      <div id="balance-elements">
         <p>My Balance<p>
         <h3>$ 0.00</h3>
       </div>
@@ -28,7 +29,37 @@
         </g>
       </svg>
     </div>
-    <div id="chart-container"></div>
-  </div>
+    <div id="chart-container">
+      <h3 id="chart-heading">Spending - Last 7 days</h3>
+      <div id="chart-bars">
+        <div class="bar" id="mon"></div>
+        <div class="bar" id="tue"></div>
+        <div class="bar" id="wed"></div>
+        <div class="bar" id="thu"></div>
+        <div class="bar" id="fri"></div>
+        <div class="bar" id="sat"></div>
+        <div class="bar" id="sun"></div>
+      </div>
+      <div id="chart-labels">
+        <p>mon</p>
+        <p>tue</p>
+        <p>wed</p>
+        <p>thu</p>
+        <p>fri</p>
+        <p>sat</p>
+        <p>sun</p>
+      </div>
+      <div class="divider"></div>
+      <div id="chart-statics">
+        <div id="Spending-in-dollar">
+          <p>Total this month</p>
+          <h3 id="total-amount"></h3>
+        </div>
+        <div id="Spending-in-percentage">
+          <h5>+2.4%</h5>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
