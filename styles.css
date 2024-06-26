@@ -25,13 +25,80 @@ body {
 #balance-container {
     display: flex;
     flex-basis: 21%;
-    background-color: rgb(236, 119, 95)
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(236, 119, 95);
 }
 
+#balance-container p, #balance-container h3 {
+    color: white;
+}
+
+#balance-container p {
+    padding-bottom: 2px;
+}
+
+
+/* Styling for the chart start hear*/
 #chart-container{
     display: flex;
     flex-basis: 75%;
+    flex-direction: column;
+    padding: 20px;
     background-color: rgb(255, 250, 245);
 }
+
+#chart-heading {
+    color: rbg(0,0,0);
+    padding-bottom: 20px;
+}
+
+#chart-bars {
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bar{
+    display: flex;
+    flex-basis: 11%;
+    border-radius: 3px;
+    background-color: rgb(236, 119, 95);
+}
+
+#chart-labels {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0, 0.2);
+    font-size: 0.8rem;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+
+.divider {
+    height: 1px;
+    background: rgb(0, 0, 0, 0.2);
+    margin: 0px 0 30px 0;
+}
+
+#chart-statics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chart-statics p {
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0, 0.2);
+}
+
+#Spending-in-percentage h5 {
+    text-align: right;
+}
+
+
 
 
