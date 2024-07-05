@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="styles.css">
   
   <title>Expenses chart component</title>
-  <script src="script.js"></script>
 </head>
 <body>
 
@@ -32,24 +31,59 @@
     <div id="chart-container">
       <h3 id="chart-heading">Spending - Last 7 days</h3>
       <div id="chart-bars">
-        <div class="bar" id="mon"></div>
-        <div class="bar" id="tue"></div>
-        <div class="bar" id="wed"></div>
-        <div class="bar" id="thu"></div>
-        <div class="bar" id="fri"></div>
-        <div class="bar" id="sat"></div>
-        <div class="bar" id="sun"></div>
+        <div class="bar-container">
+          <div class="lable">
+            <p class="amount">0</p>
+          </div>
+          <div id="mon" class="bars"></div>
+          <p>mon</p>
+        </div>
+        <div class="bar-container">
+          <div class="lable">
+            <p class="amount">0</p>
+          </div>
+          <div id="tue" class="bars"></div>
+          <p>tue</p>
+        </div>
+        <div class="bar-container">
+          <div class="lable">
+            <p class="amount">0</p>
+          </div>
+          <div id="wed" class="bars"></div>
+          <p>wed</p>
+        </div>
+        <div class="bar-container">
+          <div class="lable">
+            <p class="amount">0</p>
+          </div>
+          <div id="thu" class="bars"></div>
+          <p>thu</p>
+        </div>
+        <div class="bar-container">
+          <div class="lable">
+            <p class="amount">0</p>
+          </div>
+          <div id="fri" class="bars"></div>
+          <p>fri</p>
+        </div>
+        <div class="bar-container">
+          <div class="lable">
+            <p class="amount">0</p>
+          </div>
+          <div id="sat" class="bars"></div>
+          <p>sat</p>
+        </div>
+        <div class="bar-container">
+          <div class="lable">
+            <p class="amount">0</p>
+          </div>
+          <div id="sun" class="bars"></div>
+          <p>sun</p>
+        </div>
       </div>
-      <div id="chart-labels">
-        <p>mon</p>
-        <p>tue</p>
-        <p>wed</p>
-        <p>thu</p>
-        <p>fri</p>
-        <p>sat</p>
-        <p>sun</p>
-      </div>
+
       <div class="divider"></div>
+
       <div id="chart-statics">
         <div id="Spending-in-dollar">
           <p>Total this month</p>
@@ -60,6 +94,8 @@
           <p>from last month</p>
         </div>
       </div>
+      
     </div>
+  <script src="script.js"></script>
 </body>
 </html>
