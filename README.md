@@ -10,8 +10,8 @@ Started with they layout and moved on with the style and then added the js in th
 
 ### Useful resources
 
-Documentation: https://developer.mozilla.org/en-US/
-Task informatiom:https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub
+- Documentation: https://developer.mozilla.org/en-US/
+- Task informatiom:https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub
 
 ### Links
 
