@@ -8,6 +8,11 @@
 body {
     font-family: 'DM Sans', sans-serif;
     background-color: rgb(248, 233, 221);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
 }
 
 #container {
@@ -16,6 +21,8 @@ body {
     margin: 40px 20px 40px 20px;
     height: 90vh;
     justify-content: space-between;
+    max-width: 1024px;
+    min-width: 320px;
 }
 
 #container > div {

@@ -32,7 +32,7 @@
     //Update the bars
     days.forEach(day => {
       const bar = document.getElementById(`${day}`);
-      bar.style.height = `${totals[day]}px`;
+      bar.style.height = `${totals[day] * 2}px`;
 
     });
 
