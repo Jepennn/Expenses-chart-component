@@ -15,4 +15,4 @@ Task informatiom:https://www.frontendmentor.io/challenges/expenses-chart-compone
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jepennn.github.io/Expenses-chart-component/](https://your-live-site-url.com)
